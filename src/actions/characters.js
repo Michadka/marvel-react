@@ -6,7 +6,7 @@ const baseUrl = 'http://gateway.marvel.com/v1/public/';
 function generateCredentials(){
   let publicKey = process.env.REACT_APP_MARVEL_PUBLIC_KEY;
   let privateKey = process.env.REACT_APP_MARVEL_PRIVATE_KEY;
-  let timestamp = +new Date(); // same new Date().getTime()
+  let timestamp = 1; // same new Date().getTime()
   let hash = md5(`${timestamp}${privateKey}${publicKey}`);
   return `?ts=${timestamp}&apikey=${publicKey}&hash=${hash}`
 }
