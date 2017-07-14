@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: vqEWn2mbUcawYFkRjwp2Gef0234JXpPqKAcCFDhQphGdFEqIG3SWIAOcolRKD9srWaGSNEYSSXfD9EStD4g75WrTlEA4FyjGYi0XzzusbAv/9vILLiqhn0AdJ62C17KsVHRKRrnFaZP1koTqf8v2mHug52/llDtn3Sq3dXG5eXL0hETGAiCoMO4EhhUWx0nQrfl0ywTLthC7AOlSpy8dsHnVdfb2W+yb1Z4TiLitOgfnBkp6SDDLaYAY2SWD2iYduCXcV2hiud6VFXj1r1Vpixprb85eEzCS9ds5xeqyUcAgCMLl0o2HlPhC77vFcq+NlNeo29/wTBQ8kYFdj7iPFXmi9nrdtmUn6VOn8GGcNORCWUjVSTuFZXa5nwXMXNRuAFfoSHtHVY6b2L+wG9JCrHc7VPWyj3TOuKICdyyfcqaEiB+JML/wfFck0qjoS9iXnTQ/EaJUMnAoIF5H9KBR0AQfupqP2FGBFvjIP/yejyAsUgyHgePVQzwdlXfds6VP4M8w5Uq9h8R7HKLm1T8d81oPnBs16P/2BJ+S2oorKovDK4WeXGoMXZCrPzkou3X3A2+LrGiijgJL4ilnozYHC0c24frNxI3bSZCscRW7DguVnb/CBIt7BFOP6Iw0FGAdHDruoZ3EXy+xgPZeK00xU8lpsG2KBX+IMK/4WERCBP0=
+  app: ancient-brook-67619
+  on:
+    repo: N0015507/marvel-react
